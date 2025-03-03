@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Infomation</title>
+
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            border-radius: 10px;
+            background-image: url(pic1.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: whitesmoke;
+
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+
+        <label for="username"><b>Username</b></label><br>
+        <input type="text" id="username" minlength="6" required><br><br>
+
+        <label for="password"><b>Password</b></label><br>
+        <input type="password" id="password" required><br><br>
+
+        <label for="email"><b>Email</b></label><br>
+        <input type="email" id="email"><br><br>
+
+        <label for="Phone"><b>Phone</b></label><br>
+        <input type="tel" id="Phone"><br><br>
+
+        <label for="day"><b>BirthDay</b></label><br>
+        <input type="date" id="day"><br><br>
+
+        <label for="gender"><b>Gender</b></label><br>
+
+
+        <input type="radio" name="option" id="male">Male
+        <input type="radio" name="option" id="female">Female<br><br>
+
+        <label for="education"><b>Education</b></label><br><br>
+        <select>
+            <option value="First">First Year</option>
+            <option value="Second">Second Year</option>
+            <option value="Third">Third Year</option>
+            <option value="Forth">Forth Year</option>
+            <option value="Fifth">Fifth Year</option>
+        </select><br><br>
+
+        <label for="comment"><b>Comment</b></label><br>
+        <textarea id="comment"></textarea><br><br>
+
+
+
+
+
+        <input type="reset" style="font-size: large;background-color: black;color: white;border-radius: 25px;">
+        <input type="submit" style="font-size: large;background-color: black;color: white;border-radius: 25px;">
+
+    </form>
+
+
+</body>
+
+</html>
