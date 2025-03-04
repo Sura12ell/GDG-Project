@@ -1,0 +1,25 @@
+body {
+    background: linear-gradient(to right, Green, yellow, red);
+
+}
+
+h2 {
+    font-style: oblique;
+}
+
+h1 {
+    text-shadow: 3px 3px 5px red;
+    color: black;
+}
+
+#image {
+    display: block;
+    height: 450px;
+    width: 450px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}

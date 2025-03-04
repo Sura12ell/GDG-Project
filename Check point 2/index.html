@@ -24,43 +24,59 @@
             color: whitesmoke;
 
         }
+
+        input,
+        select,
+        textarea {
+            height: 50%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: auto;
+            font-weight: bold;
+
+        }
     </style>
 </head>
 
 <body>
     <form>
 
-        <label for="username"><b>Username</b></label><br>
-        <input type="text" id="username" minlength="6" required><br><br>
+        <label for="username"><b>Username</b></label>
+        <input type="text" id="username" minlength="6" required>
 
-        <label for="password"><b>Password</b></label><br>
-        <input type="password" id="password" required><br><br>
+        <label for="password"><b>Password</b></label>
+        <input type="password" id="password" required>
 
-        <label for="email"><b>Email</b></label><br>
-        <input type="email" id="email"><br><br>
+        <label for="email"><b>Email</b></label>
+        <input type="email" id="email">
 
-        <label for="Phone"><b>Phone</b></label><br>
-        <input type="tel" id="Phone"><br><br>
+        <label for="Phone"><b>Phone</b></label>
+        <input type="tel" id="Phone">
 
-        <label for="day"><b>BirthDay</b></label><br>
+        <label for="day"><b>BirthDay</b></label>
         <input type="date" id="day"><br><br>
 
-        <label for="gender"><b>Gender</b></label><br>
+        <label for="gender"><b>Gender</b></label>
 
-
-        <input type="radio" name="option" id="male">Male
-        <input type="radio" name="option" id="female">Female<br><br>
-
-        <label for="education"><b>Education</b></label><br><br>
+        <div class="radio">
+            <label> <input type="radio" name="option" id="male">Male</lable>
+                <label> <input type="radio" name="option" id="female">Female</label><br>
+        </div>
+        <label for="education"><b>Education</b></label>
         <select>
             <option value="First">First Year</option>
             <option value="Second">Second Year</option>
             <option value="Third">Third Year</option>
             <option value="Forth">Forth Year</option>
             <option value="Fifth">Fifth Year</option>
-        </select><br><br>
+        </select>
 
-        <label for="comment"><b>Comment</b></label><br>
+        <label for="comment"><b>Comment</b></label>
         <textarea id="comment"></textarea><br><br>
 
 
